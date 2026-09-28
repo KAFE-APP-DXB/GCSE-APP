@@ -4,9 +4,9 @@ This is a static website for iPad Safari and other modern browsers. It has origi
 
 ## Publish from this repository
 
-This repository is dedicated to the study app. The static files are at the repository root. To publish, in **Settings → Pages** choose **Deploy from a branch**, branch **main**, folder **/(root)**, then save. The resulting site is `https://kafe-app-dxb.github.io/GCSE-APP/` once GitHub reports deployment complete. It is public, and requires no ChatGPT or GitHub sign-in for visitors.
+This repository is dedicated to the study app. The static files are at the repository root. To publish, in **Settings → Pages** choose **Deploy from a branch**, branch **main**, folder **/(root)**, then save. GitHub will show the exact site URL in Pages settings once deployment completes. The site is public and requires no ChatGPT or GitHub sign-in for visitors.
 
-The site does not contain a GitHub token, deploy key, API connection, KAFE3 data, or code that accesses any repository. It reads its own question bank, and stores learning progress on the student's device. The service worker is restricted to this app's path. Keep credentials and personal information out of this repository, which is public.
+The site does not contain a GitHub token, deploy key, API connection, private project data, or code that accesses any repository. It reads its own question bank, and stores learning progress on the student's device. The service worker is restricted to this app's path. Keep credentials and personal information out of this repository, which is public.
 
 On iPad, open the published site in Safari and use **Share → Add to Home Screen**. Open it online once before relying on the offline cache.
 

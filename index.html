@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f6f3eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Study Loop">
+  <meta name="description" content="Original AQA GCSE Physics and Business practice questions with useful feedback and worked answers.">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='17' fill='%231a3560'/%3E%3Ccircle cx='23' cy='32' r='12' fill='none' stroke='%23f4c96f' stroke-width='4'/%3E%3Ccircle cx='41' cy='32' r='12' fill='none' stroke='%23ffffff' stroke-width='4'/%3E%3C/svg%3E">
+  <title>Study Loop | GCSE practice</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./questions.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="Study Loop home">
+        <span class="brand-mark" aria-hidden="true"><i></i><i></i></span>
+        <span>study<span class="brand-accent">loop</span></span>
+      </a>
+      <div class="topbar-right">
+        <span class="board-badge">AQA GCSE • original practice</span>
+        <a class="top-link" href="https://www.aqa.org.uk/past-papers-and-mark-schemes-finder" target="_blank" rel="noopener noreferrer">Past papers <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+    <main id="app" tabindex="-1"><p class="loading">Getting your practice ready…</p></main>
+    <footer class="site-footer">
+      <span>Made for learning, one question at a time.</span>
+      <span>Original questions aligned to AQA topics • Progress stays on this device</span>
+    </footer>
+  </div>
+  <dialog id="feedback-dialog" aria-labelledby="feedback-title">
+    <div id="feedback-body"></div>
+  </dialog>
+</body>
+</html>

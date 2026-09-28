@@ -1,0 +1,24 @@
+{
+  "name": "Study Loop — GCSE practice",
+  "short_name": "Study Loop",
+  "description": "AQA GCSE Physics and Business practice with worked explanations.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f3eb",
+  "theme_color": "#1e3151",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
